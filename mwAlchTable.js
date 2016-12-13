@@ -4,6 +4,12 @@ $(document).ready( function(){
     });
 });
 
+function filterEffect (effect){
+    var searchTerm = $("#alch-table").DataTable();
+    searchTerm.search(effect, true, false);
+    searchTerm.draw();
+}
+
 var mwAlchIngredients = [
 /*
 //empty entry
