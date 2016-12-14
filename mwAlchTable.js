@@ -1,26 +1,24 @@
 $(document).ready( function(){
     $('#alch-table').DataTable({
-        data: mwAlchIngredients
+        data: mwAlch.ingredients
     });
+    var newButton = $("<button></button>").text("restore health");
+    newButton.click(function() { mwAlch.filterEffect("restore health") });
+    $("#effect-buttons").append(newButton);
 });
 
-function filterEffect (effect){
+//to minimize global variables, we will create the mwAlch object to hold properties and methods
+var mwAlch = {};
+
+//search function for filtering table by alchemical effect
+mwAlch.filterEffect = function (effect){
     var searchTerm = $("#alch-table").DataTable();
     searchTerm.search(effect, true, false);
     searchTerm.draw();
 }
 
-var mwAlchIngredients = [
-/*
-//empty entry
-[
-        "",
-        "",
-        "",
-        "",
-        ""
-],
- */
+//big-ass array holding ingredient names, effects, etc.
+mwAlch.ingredients = [
     [
         "Alit Hide",
         "Drain Intelligence",
@@ -573,9 +571,11 @@ var mwAlchIngredients = [
         "Drain Health",
         "Drain Magicka",
         "--"
-    ],
+    ]
     
     //end of vanilla MW ingredients
+
+    //an empty ingredient template for convenience
     /*[
         "",
         "",
