@@ -429,10 +429,10 @@ var mwAlchIngredients = [
     ],
     [
         "Scrib Jelly",
-        "Restore Fatigue",
-        "Fortify Fatigue",
-        "Burden",
-        "Swift Swim"
+        "Fortify Willpower",
+        "Cure Poison",
+        "Cure Blight Disease",
+        "Restore Willpower"
     ],
     [
         "Scrib Jerky",
