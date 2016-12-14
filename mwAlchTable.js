@@ -2,9 +2,15 @@ $(document).ready( function(){
     $('#alch-table').DataTable({
         data: mwAlch.ingredients
     });
-    var newButton = $("<button></button>").text("restore health");
-    newButton.click(function() { mwAlch.filterEffect("restore health") });
-    $("#effect-buttons").append(newButton);
+    for (var i in mwAlch.effects){
+        _makeButton(i);
+    }
+    function _makeButton(i){
+        var effect = mwAlch.effects[i];
+        var newButton = $("<button></button>").text(effect);
+        newButton.click(function() { mwAlch.filterEffect(effect) });
+        $("#effect-buttons").append(newButton);
+    }
 });
 
 //to minimize global variables, we will create the mwAlch object to hold properties and methods
@@ -583,4 +589,86 @@ mwAlch.ingredients = [
         "",
         ""
     ],*/
+];
+
+//array of alchemical effects
+mwAlch.effects = [
+    "Blind",
+    "Burden",
+    "Cure Blight Disease",
+    "Cure Common Disease",
+    "Cure Paralyzation",
+    "Cure Poison",
+    "Damage Fatigue",
+    "Damage Health",
+    "Damage Intelligence",
+    "Damage Magicka",
+    "Detect Animal",
+    "Detect Enchantment",
+    "Detect Key",
+    "Dispel",
+    "Drain Alteration",
+    "Drain Agility",
+    "Drain Endurance",
+    "Drain Fatigue",
+    "Drain Health",
+    "Drain Intelligence",
+    "Drain Luck",
+    "Drain Magicka",
+    "Drain Personality",
+    "Drain Speed",
+    "Drain Strength",
+    "Drain Willpower",
+    "Feather",
+    "Fire Shield",
+    "Fortify Agility",
+    "Fortify Attack",
+    "Fortify Endurance",
+    "Fortify Fatigue",
+    "Fortify Health",
+    "Fortify Intelligence",
+    "Fortify Luck",
+    "Fortify Magicka",
+    "Fortify Maximum Magicka",
+    "Fortify Personality",
+    "Fortify Speed",
+    "Fortify Strength",
+    "Fortify Willpower",
+    "Frost Damage",
+    "Frost Shield",
+    "Invisibility",
+    "Levitate",
+    "Light",
+    "Lightning Shield",
+    "Night Eye",
+    "Paralyze",
+    "Poison",
+    "Recall",
+    "Reflect",
+    "Resist Common Disease",
+    "Resist Fire",
+    "Resist Frost",
+    "Resist Magicka",
+    "Resist Paralysis",
+    "Resist Poison",
+    "Resist Shock",
+    "Restore Agility",
+    "Restore Endurance",
+    "Restore Fatigue",
+    "Restore Health",
+    "Restore Intelligence",
+    "Restore Luck",
+    "Restore Magicka",
+    "Restore Personality",
+    "Restore Speed",
+    "Restore Strength",
+    "Restore Willpower",
+    "Spell Absorption",
+    "Swift Swim",
+    "Telekenesis",
+    "Vampirism",
+    "Water Breathing",
+    "Water Walking",
+    "Weakness to Fire",
+    "Weakness to Poison"
 ];
