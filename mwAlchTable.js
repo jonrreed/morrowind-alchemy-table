@@ -578,7 +578,85 @@ mwAlch.ingredients = [
         "Drain Magicka",
         "--"
     ]
-    
+    //added in Tribunal expansion
+    [
+        "Adamantium Ore †",
+        "Burden",
+        "Restore Magicka",
+        "Poison",
+        "Reflect"
+    ],
+    [
+        "Durzog Meat †",
+        "Fortify Agility",
+        "Fortify Strength",
+        "Blind",
+        "Damage Magicka"
+    ],
+    [
+        "Golden Sedge Flowers †",
+        "Drain Magicka",
+        "Fortify Strength",
+        "Fortify Attack",
+        "Swift Swim"
+    ],
+    [
+        "Horn Lily Bulb †",
+        "Resist Paralysis",
+        "Drain Health",
+        "Restore Strength",
+        "Restore Endurance",
+    ],
+    [
+        "Lloramor Spines †",
+        "Spell Absorption",
+        "Invisibility",
+        "Poison",
+        "Detect Enchantment"
+    ],
+    [
+        "Meadow Rye †",
+        "Fortify Speed",
+        "Damage Health",
+        "Restore Speed",
+        "Drain Speed"
+    ],
+    [
+        "Nirthfly Stalks †",
+        "Damage Health",
+        "Fortify Speed",
+        "Restore Speed",
+        "Drain Speed"
+    ],
+    [
+        "Noble Sedge Flowers †",
+        "Damage Health",
+        "Restore Agility",
+        "Poison",
+        "Fortify Agility"
+    ],
+    [
+        "Scrib Cabbage †",
+        "Drain Intelligence",
+        "Damage Health",
+        "Restore Agility",
+        "Fortify Agility"
+    ],
+    [
+        "Sweetpulp †",
+        "Paralyze",
+        "Levitate",
+        "Resist Paralysis",
+        "Restore Health"
+    ],
+    [
+        "Tisma-Come-By Flowers  †",
+        "Dispel",
+        "Resist Paralysis",
+        "Drain Magicka",
+        "Restore Endurance"
+    ],
+
     //end of vanilla MW ingredients
 
     //an empty ingredient template for convenience
