@@ -578,7 +578,30 @@ mwAlch.ingredients = [
         "Drain Magicka",
         "--"
     ],
-    //added in Tribunal expansion
+    //rare ingredients
+    [
+        "Human Flesh",
+        "Fortify Health",
+        "Drain Intelligence",
+        "Drain Personality",
+        "--"
+    ],
+    [
+        "Meteor Slime",
+        "Fortify Willpower",
+        "Cure Poison",
+        "Cure Blight Disease",
+        "Restore Willpower"
+    ],
+    [
+        "Poison",
+        "Weakness to Poison",
+        "Damage Health",
+        "Damage Fatigue",
+        "Poison"
+    ],
+    //++end of vanilla MW ingredients++
+    //++added in Tribunal expansion++
     [
         "Adamantium Ore (Tr)",
         "Burden",
@@ -656,8 +679,92 @@ mwAlch.ingredients = [
         "Drain Magicka",
         "Restore Endurance"
     ],
-
-    //end of vanilla MW ingredients
+    //++Added in Bloodmoon expansion
+    [
+        "Bear Pelt (BM)",
+        "Drain Fatigue",
+        "Fortify Strength",
+        "Resist Common Disease",
+        "Night Eye"
+    ],[
+        "Bristleback Leather (BM)",
+        "Blind",
+        "Frost Damage",
+        "Resist Frost",
+        "Recall"
+    ],[
+        "Grahl Eyeball (BM)",
+        "Resist Frost",
+        "Night Eye",
+        "Drain Magicka",
+        "Fortify Strength"
+    ],[
+        "Gravetar (BM)",
+        "Resist Frost",
+        "Drain Health",
+        "Fortify Fatigue",
+        "Drain Luck"
+    ],[
+        "Heartwood (BM)",
+        "Restore Magicka",
+        "Fortify Agility",
+        "Drain Strength",
+        "Weakness to Fire"
+    ],[
+        "Holly Berries (BM)",
+        "Resist Frost",
+        "Frost Shield",
+        "Frost Damage",
+        "Weakness to Fire"
+    ],[
+        "Horker Tusk (BM)",
+        "Drain Alteration",
+        "Fortify Intelligence",
+        "Fortify Maximum Magicka",
+        "Detect Animal"
+    ],[
+        "Raw Stalhrim (BM)",
+        "Resist Frost",
+        "Frost Damage",
+        "Paralyze",
+        "Restore Health"
+    ],[
+        "Ripened Belladonna Berries (BM)",
+        "Resist Magicka",
+        "Restore Magicka",
+        "Fortify Magicka",
+        "Drain Magicka"
+    ],[
+        "Snow Bear Pelt (BM)",
+        "Drain Fatigue",
+        "Fortify Speed",
+        "Resist Common Disease",
+        "Night Eye"
+    ],[
+        "Snow Wolf Pelt (BM)",
+        "Drain Fatigue",
+        "Fortify Speed",
+        "Resist Common Disease",
+        "Night Eye"
+    ],[
+        "Unripened Belladonna Berries (BM)",
+        "Resist Magicka",
+        "Restore Magicka",
+        "Fortify Magicka",
+        "Drain Magicka"
+    ],[
+        "Wolf Pelt (BM)",
+        "Drain Fatigue",
+        "Fortify Speed",
+        "Resist Common Disease",
+        "Night Eye"
+    ],[
+        "Wolfsbane Petal (BM)s",
+        "Restore Intelligence",
+        "Invisibility",
+        "Drain Endurance",
+        "Drain Magicka"
+    ]
 
     //an empty ingredient template for convenience
     /*[
