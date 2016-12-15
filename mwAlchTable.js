@@ -603,77 +603,77 @@ mwAlch.ingredients = [
     //++end of vanilla MW ingredients++
     //++added in Tribunal expansion++
     [
-        "Adamantium Ore (Tr)",
+        "Adamantium Ore &#8224",
         "Burden",
         "Restore Magicka",
         "Poison",
         "Reflect"
     ],
     [
-        "Durzog Meat (Tr)",
+        "Durzog Meat &#8224",
         "Fortify Agility",
         "Fortify Strength",
         "Blind",
         "Damage Magicka"
     ],
     [
-        "Golden Sedge Flowers (Tr)",
+        "Golden Sedge Flowers &#8224",
         "Drain Magicka",
         "Fortify Strength",
         "Fortify Attack",
         "Swift Swim"
     ],
     [
-        "Horn Lily Bulb (Tr)",
+        "Horn Lily Bulb &#8224",
         "Resist Paralysis",
         "Drain Health",
         "Restore Strength",
         "Restore Endurance",
     ],
     [
-        "Lloramor Spines (Tr)",
+        "Lloramor Spines &#8224",
         "Spell Absorption",
         "Invisibility",
         "Poison",
         "Detect Enchantment"
     ],
     [
-        "Meadow Rye (Tr)",
+        "Meadow Rye &#8224",
         "Fortify Speed",
         "Damage Health",
         "Restore Speed",
         "Drain Speed"
     ],
     [
-        "Nirthfly Stalks (Tr)",
+        "Nirthfly Stalks &#8224",
         "Damage Health",
         "Fortify Speed",
         "Restore Speed",
         "Drain Speed"
     ],
     [
-        "Noble Sedge Flowers (Tr)",
+        "Noble Sedge Flowers &#8224",
         "Damage Health",
         "Restore Agility",
         "Poison",
         "Fortify Agility"
     ],
     [
-        "Scrib Cabbage (Tr)",
+        "Scrib Cabbage &#8224",
         "Drain Intelligence",
         "Damage Health",
         "Restore Agility",
         "Fortify Agility"
     ],
     [
-        "Sweetpulp (Tr)",
+        "Sweetpulp &#8224",
         "Paralyze",
         "Levitate",
         "Resist Paralysis",
         "Restore Health"
     ],
     [
-        "Tisma-Come-By Flowers  (Tr)",
+        "Tisma-Come-By Flowers  &#8224",
         "Dispel",
         "Resist Paralysis",
         "Drain Magicka",
@@ -681,85 +681,85 @@ mwAlch.ingredients = [
     ],
     //++Added in Bloodmoon expansion
     [
-        "Bear Pelt (BM)",
+        "Bear Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Strength",
         "Resist Common Disease",
         "Night Eye"
     ],[
-        "Bristleback Leather (BM)",
+        "Bristleback Leather &#8224&#8224",
         "Blind",
         "Frost Damage",
         "Resist Frost",
         "Recall"
     ],[
-        "Grahl Eyeball (BM)",
+        "Grahl Eyeball &#8224&#8224",
         "Resist Frost",
         "Night Eye",
         "Drain Magicka",
         "Fortify Strength"
     ],[
-        "Gravetar (BM)",
+        "Gravetar &#8224&#8224",
         "Resist Frost",
         "Drain Health",
         "Fortify Fatigue",
         "Drain Luck"
     ],[
-        "Heartwood (BM)",
+        "Heartwood &#8224&#8224",
         "Restore Magicka",
         "Fortify Agility",
         "Drain Strength",
         "Weakness to Fire"
     ],[
-        "Holly Berries (BM)",
+        "Holly Berries &#8224&#8224",
         "Resist Frost",
         "Frost Shield",
         "Frost Damage",
         "Weakness to Fire"
     ],[
-        "Horker Tusk (BM)",
+        "Horker Tusk &#8224&#8224",
         "Drain Alteration",
         "Fortify Intelligence",
         "Fortify Maximum Magicka",
         "Detect Animal"
     ],[
-        "Raw Stalhrim (BM)",
+        "Raw Stalhrim &#8224&#8224",
         "Resist Frost",
         "Frost Damage",
         "Paralyze",
         "Restore Health"
     ],[
-        "Ripened Belladonna Berries (BM)",
+        "Ripened Belladonna Berries &#8224&#8224",
         "Resist Magicka",
         "Restore Magicka",
         "Fortify Magicka",
         "Drain Magicka"
     ],[
-        "Snow Bear Pelt (BM)",
+        "Snow Bear Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Speed",
         "Resist Common Disease",
         "Night Eye"
     ],[
-        "Snow Wolf Pelt (BM)",
+        "Snow Wolf Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Speed",
         "Resist Common Disease",
         "Night Eye"
     ],[
-        "Unripened Belladonna Berries (BM)",
+        "Unripened Belladonna Berries &#8224&#8224",
         "Resist Magicka",
         "Restore Magicka",
         "Fortify Magicka",
         "Drain Magicka"
     ],[
-        "Wolf Pelt (BM)",
+        "Wolf Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Speed",
         "Resist Common Disease",
         "Night Eye"
     ],[
-        "Wolfsbane Petal (BM)s",
+        "Wolfsbane Petal &#8224&#8224s",
         "Restore Intelligence",
         "Invisibility",
         "Drain Endurance",
