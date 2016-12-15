@@ -577,7 +577,7 @@ mwAlch.ingredients = [
         "Drain Health",
         "Drain Magicka",
         "--"
-    ]
+    ],
     //added in Tribunal expansion
     [
         "Adamantium Ore †",
