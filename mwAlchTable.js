@@ -580,77 +580,77 @@ mwAlch.ingredients = [
     ],
     //added in Tribunal expansion
     [
-        "Adamantium Ore †",
+        "Adamantium Ore (Tr)",
         "Burden",
         "Restore Magicka",
         "Poison",
         "Reflect"
     ],
     [
-        "Durzog Meat †",
+        "Durzog Meat (Tr)",
         "Fortify Agility",
         "Fortify Strength",
         "Blind",
         "Damage Magicka"
     ],
     [
-        "Golden Sedge Flowers †",
+        "Golden Sedge Flowers (Tr)",
         "Drain Magicka",
         "Fortify Strength",
         "Fortify Attack",
         "Swift Swim"
     ],
     [
-        "Horn Lily Bulb †",
+        "Horn Lily Bulb (Tr)",
         "Resist Paralysis",
         "Drain Health",
         "Restore Strength",
         "Restore Endurance",
     ],
     [
-        "Lloramor Spines †",
+        "Lloramor Spines (Tr)",
         "Spell Absorption",
         "Invisibility",
         "Poison",
         "Detect Enchantment"
     ],
     [
-        "Meadow Rye †",
+        "Meadow Rye (Tr)",
         "Fortify Speed",
         "Damage Health",
         "Restore Speed",
         "Drain Speed"
     ],
     [
-        "Nirthfly Stalks †",
+        "Nirthfly Stalks (Tr)",
         "Damage Health",
         "Fortify Speed",
         "Restore Speed",
         "Drain Speed"
     ],
     [
-        "Noble Sedge Flowers †",
+        "Noble Sedge Flowers (Tr)",
         "Damage Health",
         "Restore Agility",
         "Poison",
         "Fortify Agility"
     ],
     [
-        "Scrib Cabbage †",
+        "Scrib Cabbage (Tr)",
         "Drain Intelligence",
         "Damage Health",
         "Restore Agility",
         "Fortify Agility"
     ],
     [
-        "Sweetpulp †",
+        "Sweetpulp (Tr)",
         "Paralyze",
         "Levitate",
         "Resist Paralysis",
         "Restore Health"
     ],
     [
-        "Tisma-Come-By Flowers  †",
+        "Tisma-Come-By Flowers  (Tr)",
         "Dispel",
         "Resist Paralysis",
         "Drain Magicka",
