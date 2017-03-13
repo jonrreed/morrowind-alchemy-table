@@ -1,16 +1,22 @@
-$(document).ready( function(){
+$(document).ready(function () {
     $('#alch-table').DataTable({
         data: mwAlch.ingredients
     });
-    
-    for (var i in mwAlch.effects){
+
+    //Add click filter functionality
+    var table = $('#alch-table').DataTable();
+    $('#alch-table tbody').on('click', 'td', function () {
+        mwAlch.filterEffect(table.cell(this).data());
+    });
+
+    for (var i in mwAlch.effects) {
         _makeButton(i);
     }
-    function _makeButton(i){
+    function _makeButton(i) {
         var effect = mwAlch.effects[i];
         var newButton = $("<button></button>").text(effect);
         newButton.addClass("btn btn-primary");
-        newButton.click(function() { mwAlch.filterEffect(effect) });
+        newButton.click(function () { mwAlch.filterEffect(effect) });
         $("#effect-buttons").append(newButton);
     }
 });
@@ -19,7 +25,7 @@ $(document).ready( function(){
 var mwAlch = {};
 
 //search function for filtering table by alchemical effect
-mwAlch.filterEffect = function (effect){
+mwAlch.filterEffect = function (effect) {
     var searchTerm = $("#alch-table").DataTable();
     searchTerm.search(effect, true, false);
     searchTerm.draw();
@@ -46,7 +52,7 @@ mwAlch.ingredients = [
         "Drain Agility",
         "Resist Magicka",
         "Cure Blight Disease",
-        "Resist Magicka" 
+        "Resist Magicka"
     ],
     [
         "Ash Yam",
@@ -167,7 +173,7 @@ mwAlch.ingredients = [
         "Reflect",
         "Detect Key"
     ],
-    [   
+    [
         "Dreugh Wax",
         "Fortify Strength",
         "Restore Strength",
@@ -279,7 +285,7 @@ mwAlch.ingredients = [
         "Resist Common Disease",
         "Night Eye"
     ],
-    [   
+    [
         "Kresh Fiber",
         "Restore Luck",
         "Fortify Personality",
@@ -688,79 +694,79 @@ mwAlch.ingredients = [
         "Fortify Strength",
         "Resist Common Disease",
         "Night Eye"
-    ],[
+    ], [
         "Bristleback Leather &#8224&#8224",
         "Blind",
         "Frost Damage",
         "Resist Frost",
         "Recall"
-    ],[
+    ], [
         "Grahl Eyeball &#8224&#8224",
         "Resist Frost",
         "Night Eye",
         "Drain Magicka",
         "Fortify Strength"
-    ],[
+    ], [
         "Gravetar &#8224&#8224",
         "Resist Frost",
         "Drain Health",
         "Fortify Fatigue",
         "Drain Luck"
-    ],[
+    ], [
         "Heartwood &#8224&#8224",
         "Restore Magicka",
         "Fortify Agility",
         "Drain Strength",
         "Weakness to Fire"
-    ],[
+    ], [
         "Holly Berries &#8224&#8224",
         "Resist Frost",
         "Frost Shield",
         "Frost Damage",
         "Weakness to Fire"
-    ],[
+    ], [
         "Horker Tusk &#8224&#8224",
         "Drain Alteration",
         "Fortify Intelligence",
         "Fortify Maximum Magicka",
         "Detect Animal"
-    ],[
+    ], [
         "Raw Stalhrim &#8224&#8224",
         "Resist Frost",
         "Frost Damage",
         "Paralyze",
         "Restore Health"
-    ],[
+    ], [
         "Ripened Belladonna Berries &#8224&#8224",
         "Resist Magicka",
         "Restore Magicka",
         "Fortify Magicka",
         "Drain Magicka"
-    ],[
+    ], [
         "Snow Bear Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Speed",
         "Resist Common Disease",
         "Night Eye"
-    ],[
+    ], [
         "Snow Wolf Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Speed",
         "Resist Common Disease",
         "Night Eye"
-    ],[
+    ], [
         "Unripened Belladonna Berries &#8224&#8224",
         "Resist Magicka",
         "Restore Magicka",
         "Fortify Magicka",
         "Drain Magicka"
-    ],[
+    ], [
         "Wolf Pelt &#8224&#8224",
         "Drain Fatigue",
         "Fortify Speed",
         "Resist Common Disease",
         "Night Eye"
-    ],[
+    ], [
         "Wolfsbane Petal &#8224&#8224s",
         "Restore Intelligence",
         "Invisibility",

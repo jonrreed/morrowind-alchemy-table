@@ -9,14 +9,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/datatables.min.css" />
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+        body{
+            font-family: 'Gentium Basic', serif;
+        }
         #main-area {
             margin: auto;
             width: 90%;
-            font-family: Ubuntu, Verdana, sans-serif
+            font-size: 14pt;
         }
         
         .btn {
             margin: 1px;
+            font-size: 14pt;
+        }
+        td {
+            cursor: pointer;
+        }
+        td:hover {
+            color: #237187;
         }
     </style>
 </head>
@@ -27,7 +38,7 @@
         <p>Alchemy ingredients and effects courtesy of <a href="http://www.uesp.net/wiki/Morrowind:Alchemy">UESP wiki</a>
     </div>
     <div class="container">
-        <p id="effect-buttons">Filter by effect: </p>
+        <h4 id="effect-buttons">Filter by effect: </h4>
     </div>
     <div class="container">
         <table id="alch-table" class="display table table-striped dt-responsive">
