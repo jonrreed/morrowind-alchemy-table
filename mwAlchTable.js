@@ -2,12 +2,14 @@ $(document).ready( function(){
     $('#alch-table').DataTable({
         data: mwAlch.ingredients
     });
+    
     for (var i in mwAlch.effects){
         _makeButton(i);
     }
     function _makeButton(i){
         var effect = mwAlch.effects[i];
         var newButton = $("<button></button>").text(effect);
+        newButton.addClass("btn btn-primary");
         newButton.click(function() { mwAlch.filterEffect(effect) });
         $("#effect-buttons").append(newButton);
     }

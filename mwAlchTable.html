@@ -1,37 +1,50 @@
 <!DOCTYPE html>
+
 <head>
     <title>Morrowind Alchemical Ingredients</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.13/datatables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.13/datatables.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="mwAlchTable.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.13/datatables.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/datatables.min.css" />
     <style>
-        #main-area{
+        #main-area {
             margin: auto;
             width: 90%;
-            font-family:Ubuntu,Verdana,sans-serif
+            font-family: Ubuntu, Verdana, sans-serif
+        }
+        
+        .btn {
+            margin: 1px;
         }
     </style>
 </head>
 
 <body id="main-area">
-    <h2>Morrowind Alchemical Ingredients</h2>
-    <p>Alchemy ingredients and effects courtesy of <a href="http://www.uesp.net/wiki/Morrowind:Alchemy">UESP wiki</a>
-    <p id="effect-buttons">Filter by effect: </p>
-    <table id="alch-table" class="display">
-        <thead>
-            <tr>
-                <th>Ingredient</th>
-                <th>Effect 1</th>
-                <th>Effect 2</th>
-                <th>Effect 3</th>
-                <th>Effect 4</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-    <div id="legend">
-                <p>&#8224 Added in Tribunal expansion<br>&#8224&#8224 Added in Bloodmoon expansion</p>
+    <div class="container text-center">
+        <h2>Morrowind Alchemical Ingredients</h2>
+        <p>Alchemy ingredients and effects courtesy of <a href="http://www.uesp.net/wiki/Morrowind:Alchemy">UESP wiki</a>
+    </div>
+    <div class="container">
+        <p id="effect-buttons">Filter by effect: </p>
+    </div>
+    <div class="container">
+        <table id="alch-table" class="display table table-striped dt-responsive">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Effect 1</th>
+                    <th>Effect 2</th>
+                    <th>Effect 3</th>
+                    <th>Effect 4</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div id="legend">
+            <p>&#8224 Added in Tribunal expansion<br>&#8224&#8224 Added in Bloodmoon expansion</p>
+        </div>
     </div>
 
 </body>
