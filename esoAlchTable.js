@@ -228,7 +228,34 @@ esoAlch.ingredients = [
 
 //array of alchemical effects
 esoAlch.effects = [
+    "Creeping Ravage Health",
+    "Defile",
+    "Detection",
+    "Increase Armor",
+    "Increase Spell Power",
+    "Increase Spell Resist",
+    "Increase Weapon Power",
     "Invisible",
+    "Lower Armor",
+    "Lower Spell Cri",
+    "Lower Spell Power",
+    "Lower Spell Resist",
+    "Lower Weapon Crit",
+    "Lower Weapon Power",
+    "Protection",
+    "Ravage Health",
+    "Ravage Magicka",
+    "Ravage Stamina",
+    "Reduce Speed",
     "Restore Health",
-    "Stun"
+    "Restore Magicka",
+    "Restore Stamina",
+    "Speed",
+    "Spell Crit",
+    "Stun",
+    "Sustained Restore Health",
+    "Unstoppable",
+    "Vitality",
+    "Vulnerability",
+    "Weapon Crit"
 ];
