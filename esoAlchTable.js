@@ -237,7 +237,7 @@ esoAlch.effects = [
     "Increase Weapon Power",
     "Invisible",
     "Lower Armor",
-    "Lower Spell Cri",
+    "Lower Spell Crit",
     "Lower Spell Power",
     "Lower Spell Resist",
     "Lower Weapon Crit",
