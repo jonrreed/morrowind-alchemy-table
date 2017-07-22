@@ -11,17 +11,18 @@
     <script src="esoAlchTable.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/datatables.min.css" />
-    <link rel="stylesheet" type="text/css" href="style00.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body id="main-area">
+<body id="ESOstyle">
     <div class="container text-center">
         <h2>ESO Alchemy Reagents</h2>
         <p>Reagent effects courtesy of <a target="_blank" href="http://en.uesp.net/wiki/Online:Reagents">UESP wiki</a>
         <p>Morrowind Alchemy table <a href="mwAlchTable.html">here</a>
     </div>
-    <div class="container">
-        <h4 id="effect-buttons">Filter by effect: </h4>
+    <div class="container" id="effect-buttons">
+        <h4>Filter by effect: </h4>
+        <p class="buttons"></p>
     </div>
     <div class="container">
         <table id="alch-table" class="display table table-striped dt-responsive">

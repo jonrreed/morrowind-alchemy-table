@@ -2,17 +2,31 @@
 
 body {
     font-family: 'Gentium Basic', serif;
+    color: #414141;
 }
 
 #main-area {
     margin: auto;
     width: 90%;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
-.btn {
+#effect-buttons {
+    text-align: center;
+}
+
+#effect-buttons h4{
+    text-align: left;
+}
+
+#effect-buttons .btn {
     margin: 1px;
-    /*font-size: 14pt;*/
+    font-size: 12pt;
+    width: 226px;
+}
+
+#alch-table_wrapper {
+    padding: 20px 0;
 }
 
 td {
@@ -21,4 +35,10 @@ td {
 
 td:hover {
     color: #237187;
+}
+
+@media screen and (min-width: 992px){
+    #main-area, #effect-buttons .btn{
+        font-size: 14pt;
+    }
 }

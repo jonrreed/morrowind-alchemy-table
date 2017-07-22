@@ -17,7 +17,7 @@ $(document).ready(function () {
         var newButton = $("<button></button>").text(effect);
         newButton.addClass("btn btn-primary");
         newButton.click(function () { mwAlch.filterEffect(effect) });
-        $("#effect-buttons").append(newButton);
+        $("#effect-buttons .buttons").append(newButton);
     }
 });
 

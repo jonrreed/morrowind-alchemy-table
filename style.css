@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+.flatness {
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+.transitionary {
+  transition: all 0.3s;
+}
+.no-underline {
+  text-decoration: none;
+}
+body {
+  font-family: 'Gentium Basic', serif;
+  margin: auto;
+  width: 90%;
+  font-size: 12pt;
+}
+.top-heading {
+  text-align: center;
+}
+a.filter-toggle {
+  font-size: 14px;
+  cursor: pointer;
+}
+#MWstyle {
+  color: #414141;
+  background: #d9b47f url("img/mwBackgroundImage.jpg") no-repeat fixed;
+  background-size: cover;
+}
+#MWstyle #effect-buttons .btn-primary {
+  background-color: #422515;
+}
+#MWstyle #effect-buttons .btn-primary:hover {
+  background-color: #8f502e;
+}
+#MWstyle a {
+  transition: all 0.3s;
+  color: #8f502e;
+}
+#MWstyle a:hover {
+  color: #237187;
+  text-decoration: none;
+}
+#MWstyle .table > tbody > tr > td {
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+#MWstyle .table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: #f0e2ce;
+}
+#MWstyle .pagination > li > a {
+  background-color: #f0e2ce;
+}
+#MWstyle .pagination > .active > a {
+  color: white;
+  background-color: #422515;
+}
+table.dataTable {
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+#effect-buttons .buttons {
+  text-align: center;
+}
+#effect-buttons .btn {
+  margin: 1px;
+  font-size: 12pt;
+  width: 226px;
+  transition: all 0.3s;
+}
+#effect-buttons .btn-primary {
+  border: none;
+}
+#alch-table_wrapper {
+  padding: 20px 0;
+}
+td {
+  cursor: pointer;
+}
+td:hover {
+  color: #237187;
+}
+@media screen and (min-width: 992px) {
+  #main-area,
+  #effect-buttons .btn {
+    font-size: 14pt;
+  }
+  a.filter-toggle {
+    font-size: 16pt;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

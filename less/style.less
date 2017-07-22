@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+
+//--------
+@MWbgColor: #d9b47f;
+@MWbtnColor: #422515;
+@blueText: #237187;
+//--------
+.flatness{
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+.transitionary {
+    transition: all 0.3s;
+}
+.no-underline {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gentium Basic', serif;
+    margin: auto;
+    width: 90%;
+    font-size: 12pt;
+}
+
+.top-heading {
+    text-align: center;
+}
+
+a.filter-toggle{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#MWstyle {
+    color: #414141;
+    background: @MWbgColor url("img/mwBackgroundImage.jpg") no-repeat fixed;
+    background-size: cover;
+    #effect-buttons {
+        .btn-primary {
+            background-color: @MWbtnColor;
+            &:hover {
+                background-color: lighten(@MWbtnColor,20%)
+            }
+        }
+    }
+    a {
+        .transitionary;
+        color: lighten(@MWbtnColor,20%);;
+        &:hover {
+            color: @blueText;
+            .no-underline;
+        }
+    }
+    .table > tbody > tr > td {
+        .flatness;
+    }
+    .table-striped > tbody > tr:nth-of-type(2n+1) {
+        background-color: lighten(@MWbgColor,20%);
+        //.flatness;
+    }
+    .pagination > li > a {
+        background-color: lighten(@MWbgColor,20%);
+    }
+    .pagination > .active > a {
+        color: white;
+        background-color: @MWbtnColor;
+    }
+}
+
+table.dataTable{
+    .flatness;
+}
+
+#effect-buttons {
+    .buttons {
+        text-align: center;
+    }
+    .btn {
+        margin: 1px;
+        font-size: 12pt;
+        width: 226px;
+        .transitionary;
+    }
+    .btn-primary {
+        border: none;
+    }
+}
+
+#alch-table_wrapper {
+    padding: 20px 0;
+}
+
+td {
+    cursor: pointer;
+    &:hover {
+        color: @blueText;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #main-area, #effect-buttons .btn{
+        font-size: 14pt;
+    }
+    a.filter-toggle {
+        font-size: 16pt;
+    }
+}
